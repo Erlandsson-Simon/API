@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "F7Cf9EIG6BShcBfbihJYWtEXU2Zrq+cWmlieC9s+UflNRI58jyR4vmvQtqs1EaJY9Alqz46zMG/TaEkUgqYtWw==",
+  "dgSpecHash": "clH+1dadtWysosnPRJGl1iJLgdaOXwPeB8Qn9NO6ciNj11y+gtLXtzVL0e4JN+razvxyf6rqojN2ztOkd6aXEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\erlandsson.simon\\null\\API\\API\\API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\erlandsson.simon\\.nuget\\packages\\restsharp\\108.0.2\\restsharp.108.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
