@@ -2,18 +2,15 @@
 using System.Text.Json;
 using System.Net;
 
-RestClient starWarsClient = new("https://swapi.py4e.com/api/");
-RestRequest request = new("people/4/");
-RestResponse response = starWarsClient.GetAsync(request).Result;
+RestClient jeopardyClient = new("https://jservice.io");
+RestRequest request = new("/api/random");
+RestResponse response = jeopardyClient.GetAsync(request).Result;
 
 if (response.StatusCode == HttpStatusCode.OK)
 {
-    Info p = JsonSerializer.Deserialize<Info>(response.Content);
+   // Info j = JsonSerializer.Deserialize<Info>(response.Content);
 
-    Console.WriteLine("Name: " + p.name);
-    Console.WriteLine("Birth Year: " + p.birth_year);
-    Console.WriteLine("Eye Color: " + p.eye_color);
-    Console.WriteLine();
+    Console.WriteLine(response.Content);
 }
 else
 {
